@@ -1,27 +1,28 @@
 .attribution { 
     font-size: 11px; text-align: center;
+    margin-top: 10px;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
 h3 {
     color:hsl(218, 44%, 22%);
-    margin-left:40px;
     font-family: Outfit;
     font-size: 20px;
 }
 #head1{
-    margin-left: 50px;
+    margin-left:45px;
 }
 #head2{
     margin-top: -20px;
+    margin-left:40px;
 }
 p{
     margin-left:40px;
     font-family: Outfit;
     font-size: 15px; 
-    color: hsl(212, 45%, 89%);
-    margin-top: -12px;
+    color: hsl(0, 0%, 62%);
+    margin-top: -10px;
 }
 #p1{
     margin-left: 45px;
