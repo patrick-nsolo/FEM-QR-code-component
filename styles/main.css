@@ -1,57 +1,57 @@
+@import url(https://fonts.google.com/specimen/Outfit);
 .attribution { 
     font-size: 11px; text-align: center;
-    margin-top: 10px;
+    margin-top: 10px;background-color: var(--Lightgray);
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-h3 {
-    color:hsl(218, 44%, 22%);
-    font-family: Outfit;
-    font-size: 20px;
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
 }
-#head1{
-    margin-left:45px;
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
 }
-#head2{
-    margin-top: -20px;
-    margin-left:40px;
+img{
+    max-inline-size: 100%;
+    block-size: auto;/*means aspect ration of images, will remain the same in any screen size*/
+}
+body{
+    background-color: var(--Lightgray);
+}
+section{   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.container{
+    background-color: var(--White);  
+    max-width:300px ;  
+    border-radius: 20px; 
+    height: 500px;
+}
+.container img{
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+h3, p{
+    max-width: 400px;   
+    text-align: center;   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 270px;
+    margin-left: 15px;
 }
 p{
-    margin-left:40px;
-    font-family: Outfit;
-    font-size: 15px; 
-    color: hsl(0, 0%, 62%);
-    margin-top: -10px;
+    margin-top: 20px;
+    color: var(--Grayishblue);
+    font-size: 15px;
 }
-#p1{
-    margin-left: 45px;
-}
-#p2{
-    margin-left: 40px;
-    
-}
-#p3{
-    margin-left: 110px;
-}
-body {
-    background-color:hsl(220, 15%, 55%)
-}
-.whitebox{
-    width: 300px;
-    height: 500px;
-    background-color: white;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 15px;
-    margin-top: 100px;
-    margin-bottom: auto;
-}
-.img{
-    width: 280px;
-    height:280px;
-    border-radius: 15px;
-    margin-left: 10px;
-    margin-top: 10px;   
-}
+
 
